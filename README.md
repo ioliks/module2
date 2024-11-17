@@ -1,7 +1,4 @@
-module2-solution/
-├── index.html
-└── css/
-    └── styles.css
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,11 +12,11 @@ module2-solution/
         <h1>Responsive Page</h1>
     </header>
     <main>
-        <section class="section section-chicken">
+        <section class=" section section-chicken">
             <div class="title">Chicken</div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor lacus et dolor facilisis.</p>
         </section>
-        <section class="section section-beef">
+        <section class=" section section-beef">
             <div class="title">Beef</div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor lacus et dolor facilisis.</p>
         </section>
