@@ -26,11 +26,8 @@
     </main>
 </body>
 </html>
-CSS (styles.css)
-css
-Copy code
-/* General Reset */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +39,7 @@ body {
     margin: 20px;
 }
 
-/* Header Styles */
+
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -53,7 +50,7 @@ header h1 {
     color: #333;
 }
 
-/* Section Styles */
+
 .section {
     border: 1px solid black;
     padding: 20px;
@@ -72,7 +69,7 @@ header h1 {
     border: 1px solid black;
 }
 
-/* Specific Section Colors */
+
 .section-chicken {
     background-color: #ffefdb;
 }
@@ -87,7 +84,7 @@ header h1 {
 
 /* Media Queries */
 
-/* Desktop View */
+
 @media (min-width: 992px) {
     main {
         display: flex;
@@ -100,7 +97,7 @@ header h1 {
     }
 }
 
-/* Tablet View */
+
 @media (min-width: 768px) and (max-width: 991px) {
     main {
         display: flex;
@@ -116,8 +113,12 @@ header h1 {
         width: 100%;
     }
 }
-
-/* Mobile View */
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
 @media (max-width: 767px) {
     .section {
         width: 100%;
