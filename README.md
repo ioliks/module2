@@ -1,3 +1,7 @@
+module2-solution/
+├── index.html
+└── css/
+    └── styles.css
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,34 +30,7 @@
     </main>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Page</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Responsive Page</h1>
-    </header>
-    <main>
-        <section class="section section-chicken">
-            <div class="title">Chicken</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor lacus et dolor facilisis.</p>
-        </section>
-        <section class="section section-beef">
-            <div class="title">Beef</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor lacus et dolor facilisis.</p>
-        </section>
-        <section class="section section-sushi">
-            <div class="title">Sushi</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor lacus et dolor facilisis.</p>
-        </section>
-    </main>
-</body>
-</html>
+
 
  {
     margin: 0;
